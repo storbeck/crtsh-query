@@ -39,7 +39,13 @@ Replace `insecure.com` with the domain you wish to query. The program will outpu
     "issuer_ca_id": 16418,
     "issuer_name": "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
     "common_name": "insecure.com",
-    ...
+    "name_value": "issues.nmap.org\nnmap.org\nsvn.nmap.org\nwww.nmap.org",
+    "id": 2549490984,
+    "entry_timestamp": "2020-03-07T00:14:48.255",
+    "not_before": "2020-03-06T23:14:48",
+    "not_after": "2020-06-04T23:14:48",
+    "serial_number": "03b5914e5f28724457a5a51ad2c494d040f6",
+    "result_count": 4
   },
   ...
 ]
