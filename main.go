@@ -30,7 +30,7 @@ func main() {
 	flag.Parse()
 
 	if *domain == "" {
-		log.Fatal("Domain is required. Usage: go run script.go -domain=example.com")
+		log.Fatal("Domain is required. Usage: go run main.go -domain=insecure.com")
 	}
 
 	// Calling crt.sh API
